@@ -1,13 +1,13 @@
 {
   "name": "IntelligentAssistant",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "macpackager": "electron-packager . IntelligentAssistant --platform=darwin --arch=x64 --out ../macDeploy --electronVersion 1.7.6 --overwrite --asar",
-    "winpackager": "electron-packager . IntelligentAssistant  --platform=win32 --arch=x64 --out ../winDeploy  --electronVersion 1.7.6  --overwrite --asar",
-    "win32packager": "electron-packager . IntelligentAssistant --platform=win32 --arch=ia32 --out ../winDelpoy  --electronVersion 1.7.6  --overwrite --asar",
-    "packager": "electron-packager . IntelligentAssistant --all --out ../linuxDeploy  --electronVersion 1.7.6  --overwrite --asar"
+    "macpackager": "electron-packager . IntelligentAssistant --platform=darwin --arch=x64 --out ../macDeploy --electronVersion 1.7.5 --overwrite --asar",
+    "winpackager": "electron-packager . IntelligentAssistant  --platform=win32 --arch=x64 --out ../winDeploy  --electronVersion 1.7.5  --overwrite --asar",
+    "win32packager": "electron-packager . IntelligentAssistant --platform=win32 --arch=ia32 --out ../winDelpoy  --electronVersion 1.7.5  --overwrite --asar",
+    "packager": "electron-packager . IntelligentAssistant --all --out ../linuxDeploy  --electronVersion 1.7.5  --overwrite --asar"
   },
   "keywords": [
     "Electron",
